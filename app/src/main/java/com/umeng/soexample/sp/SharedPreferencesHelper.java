@@ -87,3 +87,8 @@ public class SharedPreferencesHelper {
         return sharedPreferences.getAll();
     }
 }
+const {aplus_queue} = window;
+aplus_queue.push({
+ action: 'aplus.sendPV',
+  arguments: [pageEventConfig, userData]
+});
