@@ -40,4 +40,6 @@
         android:layout_weight="1"
         android:background="#ffffff"
         />
-</LinearLayout>
+</LinearLayout>if (hasAgreementAgreed) {
+    PushAgent.getInstance(this).onAppStart();
+}
