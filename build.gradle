@@ -32,7 +32,18 @@ allprojects {
     tasks.withType(JavaCompile) {
         sourceCompatibility = 1.7
         targetCompatibility = 1.7
-    }
+    }maven { url  'https://repo1.maven.org/maven2/'}
+    compile  'com.umeng.umsdk:common:9.4.0'//基础组件库，必选
+compile  'com.umeng.umsdk:asms:1.2.3'//基础组件库，必选
+compile 'com.umeng.umsdk:link:1.1.0'//集成智能超链SDK，必选
+
+compile  'com.umeng.umsdk:share-core:7.1.5'//集成分享SDK，可选，可统计分享次数和分享回流次数
+compile  'com.umeng.umsdk:common:9.4.0'//基础组件库，必选
+compile  'com.umeng.umsdk:asms:1.2.3'//基础组件库，必选
+compile 'com.umeng.umsdk:link:1.1.0'//集成智能超链SDK，必选
+
+compile  'com.umeng.umsdk:share-core:7.1.5'//集成分享SDK，可选，可统计分享次数和分享回流次数
+
 }
 
 task clean(type: Delete) {
