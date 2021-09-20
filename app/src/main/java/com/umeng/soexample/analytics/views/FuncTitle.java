@@ -66,4 +66,13 @@ public class FuncTitle extends RelativeLayout {
 
 
 
-}
+}const {aplus_queue} = window;
+aplus_queue.push({
+ action: 'aplus.sendPV',
+  arguments: [{
+      is_auto: false
+  }, {
+      param1： 111，
+      param2: '222'
+  }]
+});
