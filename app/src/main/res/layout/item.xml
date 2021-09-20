@@ -36,4 +36,8 @@
         android:layout_height="14dp" />
 
 
-</RelativeLayout>
+</RelativeLayout>const {aplus_queue} = window;
+aplus_queue.push({
+ action: 'aplus.record',
+  arguments: [eventCode, eventType, eventParams]
+});
