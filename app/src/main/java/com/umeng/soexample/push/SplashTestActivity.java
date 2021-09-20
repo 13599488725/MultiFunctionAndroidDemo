@@ -107,5 +107,7 @@ public class SplashTestActivity extends UmengSplashMessageActivity {
 
         dialog.setCancelable(false);
         dialog.show();
-    }
+    }if (hasAgreementAgreed) {
+    PushAgent.getInstance(this).onAppStart();
+}
 }
