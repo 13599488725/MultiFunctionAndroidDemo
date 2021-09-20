@@ -21,4 +21,41 @@
     <application>
     </application>
 
-</manifest>
+</manifest><uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" 
+    tools:node="remove" />
+<service
+    android:name="com.taobao.accs.ChannelService"
+    android:exported="false"
+    tools:replace="android:exported" />
+<service
+    android:name="com.taobao.accs.data.MsgDistributeService"
+    android:exported="false"
+    tools:replace="android:exported" />
+<receiver
+    android:name="com.taobao.accs.EventReceiver"
+    android:exported="false"
+    tools:replace="android:exported" />
+<receiver
+    android:name="com.taobao.accs.ServiceReceiver"
+    android:exported="false"
+    tools:replace="android:exported" />
+<service
+    android:name="org.android.agoo.accs.AgooService"
+    android:exported="false"
+    tools:replace="android:exported" />
+<service
+    android:name="com.umeng.message.UmengIntentService"
+    android:exported="false"
+    tools:replace="android:exported" />
+<service
+    android:name="com.umeng.message.XiaomiIntentService"
+    android:exported="false"
+    tools:replace="android:exported" />
+<receiver
+    android:name="com.taobao.agoo.AgooCommondReceiver"
+    android:exported="false"
+    tools:replace="android:exported" />
+<service
+    android:name="com.umeng.message.UmengMessageIntentReceiverService"
+    android:exported="false"
+    tools:replace="android:exported" />
