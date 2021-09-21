@@ -114,3 +114,22 @@ public class AuthAdapter extends BaseAdapter {
     };
 }
 
+代码实例
+
+//导入UMCommon的OC的头文件
+#import <UMCommon/UMCommon.h>
+
+//导入UMAPM的OC的头文件
+#import <UMAPM/UMLaunch.h>
+#import <UMAPM/UMCrashConfigure.h>
+#import <UMAPM/UMAPMConfig.h>
+
+//导入UMCommonLog的OC的头文件(如需加入日志库 把此注释打开)
+#import <UMCommonLog/UMCommonLogManager.h>
+
+//导入UMAnalytics的OC的头文件
+#import <UMCommon/MobClick.h>
+
+//导入UMAnalytics Game的OC的头文件(如需游戏统计可选)
+#import <UMAnalyticsGame/MobClickGameAnalytics.h>
+
