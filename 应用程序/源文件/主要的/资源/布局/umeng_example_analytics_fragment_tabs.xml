@@ -33,5 +33,15 @@
             android:layout_height="0dp"
             android:layout_weight="1" />
     </LinearLayout>
-
+#import <UMAnalytics/MobClick.h>
+    #import <UMCommon/MobClick.h>
+    #import <UMAnalytics/MobClickGameAnalytics.h>
+    #import <UMAnalyticsGame/MobClickGameAnalytics.h>
+    + (void)setScenarioType:(eScenarioType)eSType;
+    /** 是否开启统计，默认为YES(开启状态)
+ @param value 设置为NO,可关闭友盟统计功能.
+*/
++ (void)setAnalyticsEnabled:(BOOL)value;
+    + (void)setScenarioType:(eScenarioType)eSType;
+    
 </android.support.v4.app.FragmentTabHost>
